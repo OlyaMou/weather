@@ -80,16 +80,39 @@ body {
 
 
 @media (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
+    .element {
+        flex-direction: column;
+        gap: 10px;
+    }
 
-  button {
-    width: 100%;
-    font-size: 18px;
-  }
+    .wrapper {
+        flex: 1 1 auto;
+        width: 100%;
+    }
 
-  main {
-    padding: 10px;
-  }
+    .getresult {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .weather_column {
+        width: 100%;
+        height: auto;
+    }
+
+    #boxshow {
+        flex-direction: column;
+        gap: 10px;
+        transform: translateX(0);
+
+    }
+
+    .input_class input {
+        width: 100%;
+    }
+
+    #btn_show {
+        width: 100%;
+    }
 }
